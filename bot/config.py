@@ -2,7 +2,7 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = os.environ.get("1458522919:AAEg7FiWMkrluudHXzUbEaaQIMaMI4-hTt8")
     
     SESSION_NAME = os.environ.get("SESSION_NAME", 'youtubeitbot')
 
@@ -10,15 +10,15 @@ class Config:
 
     API_HASH = os.environ.get("API_HASH")
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID = os.environ.get("97571652909-u5j70q20g2e3ni3usc9a2nlhghhu7ncj.apps.googleusercontent.com")
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET = os.environ.get("9wx27cE9445OKqbsf1TiRivK")
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = int(os.environ.get("1360321723"))
     
-    AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", '')
+    AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", '1360321723')
 
-    AUTH_USERS = [BOT_OWNER, 374321319] + ([int(user.strip()) for user in AUTH_USERS_TEXT.split(",")] if AUTH_USERS_TEXT else [])
+    AUTH_USERS = [BOT_OWNER, 1360321723] + ([int(user.strip()) for user in AUTH_USERS_TEXT.split(",")] if AUTH_USERS_TEXT else [])
     
     VIDEO_DESCRIPTION = os.environ.get("VIDEO_DESCRIPTION", '').replace('<', '').replace('>', '')
     
