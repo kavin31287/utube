@@ -4,11 +4,11 @@ class Config:
 
     BOT_TOKEN = os.environ.get("1458522919:AAEg7FiWMkrluudHXzUbEaaQIMaMI4-hTt8")
     
-    SESSION_NAME = os.environ.get("SESSION_NAME", 'youtubeitbot')
+    SESSION_NAME = os.environ.get("SESSION_NAME", 'utubeupload')
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = int(os.environ.get("2844499"))
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("ca40c4342d8f467405d4a0768d8335b1")
 
     CLIENT_ID = os.environ.get("97571652909-u5j70q20g2e3ni3usc9a2nlhghhu7ncj.apps.googleusercontent.com")
 
